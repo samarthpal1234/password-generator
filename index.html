@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Password Generator</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js" defer></script> <!-- Added defer to load script after DOM -->
+</head>
+<body>
+    <div class="container">
+        <h1>Generate <br> <span>Random Password</span></h1>
+        <div class="display">
+            <input type="text" placeholder="password" id="password" readonly>
+            <img src="copy.png" id="copyBtn"> <!-- Added alt text and id for copy -->
+        </div>
+        <button id="createbutton">
+            <img src="generate.png" > Generate Password
+        </button>
+    </div>
+</body>
+</html>

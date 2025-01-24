@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-style: normal;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: #002339;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Center content vertically and horizontally */
+  }
+  
+  .container {
+    height: auto; /* Allow container to adjust based on content */
+    width: 90%;
+    max-width: 700px;
+    padding: 20px;
+  }
+  
+  .container h1 {
+    font-weight: 400;
+    font-size: 45px;
+    text-align: center;
+  }
+  
+  .container span {
+    font-style: italic;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgba(22, 169, 78, 0.854);
+    text-decoration: underline;
+  }
+  
+  .display {
+    width: 100%;
+    margin-bottom: 30px; /* Adjusted margin to look better */
+    background-color: azure;
+    color: #333;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 26px 20px; /* Corrected padding syntax */
+    border-radius: 5px;
+  }
+  
+  .display img {
+    height: 40px;
+    cursor: pointer; /* Make the image look clickable */
+  }
+  
+  .button {
+    height: 50px;
+    width: 100%;
+  }
+  
+  button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #007bff;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    padding: 10px 20px; /* Padding to give the button some space */
+    margin-top: 30px; /* Space above the button */
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  button img {
+    width: 20px;
+    margin-right: 10px; /* Space between image and text */
+  }
+  
